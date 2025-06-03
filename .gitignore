@@ -1,0 +1,8 @@
+data/
+pipeline/data/
+results/
+pipeline/results/
+work/
+pipeline/work/
+.nextflow
+pipeline/.nextflow
