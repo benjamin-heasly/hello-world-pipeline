@@ -1,0 +1,49 @@
+{
+	"edges": [
+		{
+			"id": "xy-edge__capsule_hello_world_writer_1-capsule_hello_world_reader_2",
+			"source": "capsule_hello_world_writer_1",
+			"target": "capsule_hello_world_reader_2"
+		}
+	],
+	"nodes": [
+		{
+			"data": {
+				"capsule_id": "f1231091-26d3-4864-acd1-cd007f24716d"
+			},
+			"id": "capsule_hello_world_writer_1",
+			"position": {
+				"x": 908,
+				"y": 82.33333333333334
+			},
+			"selected": false,
+			"type": "capsule"
+		},
+		{
+			"id": "results",
+			"position": {
+				"x": 1440,
+				"y": 685
+			},
+			"type": "results"
+		},
+		{
+			"data": {
+				"capsule_id": "adcd9e44-4b81-4fc2-bc7b-adbc3b310c84"
+			},
+			"id": "capsule_hello_world_reader_2",
+			"position": {
+				"x": 1202.0000000000002,
+				"y": 350.99999999999994
+			},
+			"selected": true,
+			"type": "capsule"
+		}
+	],
+	"timestamp": 1748963466407,
+	"viewport": {
+		"x": 0,
+		"y": 0,
+		"zoom": 0.75
+	}
+}

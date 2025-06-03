@@ -1,0 +1,41 @@
+{
+	"version": 2,
+	"processes": [
+		{
+			"name": "capsule_hello_world_writer_1",
+			"capsule": {
+				"id": "f1231091-26d3-4864-acd1-cd007f24716d",
+				"name": "hello-world-writer",
+				"slug": "5967917",
+				"commit": "8fdf02dd5dadd4d84f146695dd199da4240563b5",
+				"image_tag": "03b4594cbdbb343da41228442e45d7eb"
+			},
+			"resources": {
+				"cpus": 1,
+				"memory": 8
+			}
+		},
+		{
+			"name": "capsule_hello_world_reader_2",
+			"capsule": {
+				"id": "adcd9e44-4b81-4fc2-bc7b-adbc3b310c84",
+				"name": "hello-world-reader",
+				"slug": "3944950",
+				"commit": "5e0e03421ab9d3685caac99a7eafb1e27e5fd018",
+				"image_tag": "cbb76805f9b77fda6ae280a5bbda2296"
+			},
+			"resources": {
+				"cpus": 1,
+				"memory": 8
+			},
+			"inputs": [
+				{
+					"id": "YofxOmaiFFxnNHMV",
+					"source_id": "capsule_hello_world_writer_1",
+					"type": "capsule",
+					"name": "hello-world-writer"
+				}
+			]
+		}
+	]
+}
