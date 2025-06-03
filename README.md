@@ -92,6 +92,6 @@ I read a message: hello_world
 In addition, Nextflow generates nice reports and images in the `../results` directory.
 Here are some examples from a previous pipeline run:
 
- - [dag.html](./docs/dag.html)
- - [report.html](./docs/report.html)
- - [timeline.html](./docs/timeline.html)
+ - [dag.html](https://benjamin-heasly.github.io/hello-world-pipeline/dag.html)
+ - [report.html](https://benjamin-heasly.github.io/hello-world-pipeline/report.html)
+ - [timeline.html](https://benjamin-heasly.github.io/hello-world-pipeline/timeline.html)
